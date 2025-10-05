@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Chauhan</title>
+    <style>
+        *{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: black;
+   
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-right: 140px;
+    padding-top: 25px;
+    margin-left: 46px;
+    position: relative;
+
+  
+    gap: 30px;
+}
+.box1{
+    height: 90vh;
+    background-color: rgba(49, 45, 45, 0.454);
+    border-radius: 15px;
+    position: sticky;
+    top: 25px;
+}
+.box2{
+    height: auto;
+    background-color: rgba(49, 45, 45, 0.454);
+    border-radius: 15px;
+}
+.img{
+    text-align: center;
+}
+.img .g img{
+    width: 90px;
+    border-radius: 50%;
+    padding: 9px;
+    margin-top: 5px;
+    
+}
+.img .na{
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.808);
+    margin-bottom: 10px;  
+}
+.img .stu{
+    width: 100px;
+    margin: auto;
+    height:auto;
+    background-color: rgba(38, 36, 36, 0.386);
+    color: rgba(251, 201, 3, 0.537);
+    border-radius: 6px;
+}
+.line{
+    width: 275px;
+    background-color: rgb(73, 70, 70);
+    height: 1px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:30px;
+}
+.contact{
+    padding: 25px;
+    padding-bottom: 0px;
+}
+.email{
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: rgba(129, 128, 128, 0.42);
+}
+.abc{
+    color: rgba(234, 229, 229, 0.42);
+    margin-bottom: 15px;
+}
+.web{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.icon1 {
+    width: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+    filter: grayscale(1) invert(0.7);
+    transition: filter 0.2s ease;
+   
+}
+.icon2 {
+     width: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+     filter: grayscale(1) invert(0.7);
+     transition: filter 0.2s ease;    
+}
+.icon3{
+      width: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+     filter: grayscale(1) invert(0.7);
+     transition: filter 0.2s ease;  
+
+}
+.icon3:hover{
+     filter: grayscale(0) invert(0.2);
+}
+.icon1:hover{
+     filter: grayscale(0) invert(0.2);
+
+}
+.icon2:hover{
+     filter: grayscale(0) invert(0.2);
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 55px;
+    padding-top: 20px;
+}
+.ab a{
+    text-decoration: none;
+    color: rgba(251, 201, 3, 0.537) ;
+}
+.sk a{
+     text-decoration: none;
+     color: rgb(188, 192, 192);
+}
+.e a{
+     text-decoration: none;
+     color:  rgb(188, 192, 192);
+}
+.line2{
+      width: 650px;
+    background-color: rgb(73, 70, 70);
+    height: 1px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:30px;
+}
+#about{
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-right:30px;
+}
+#about h2{
+    color: azure;
+    margin-bottom: 10px;
+}
+.line3{
+    width: 50px;
+    height: 3px;
+    background-color:rgba(251, 201, 3, 0.537) ;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+#about p{
+    text-align: justify;
+    color: rgb(148, 149, 149);
+    margin-bottom: 20px;
+}
+#skill{
+     margin-top: 16px;
+    margin-left: 30px;
+    margin-right:30px;
+}
+#skill h2{ color: azure;
+    margin-bottom: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap: 25px;
+}
+.b{
+    height: 110px;
+    background-color: rgba(2, 2, 2, 0.961);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid rgba(66, 66, 66, 0.765);
+    margin-bottom: 15px;
+     transition: transform 0.3s ease , box-shadow 0.3s ease;
+     cursor: pointer;
+}
+.b h3{
+    color: rgb(133, 134, 134);
+    font-size: 15px;
+}
+.b img{
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+   
+}
+.b:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(36, 35, 35, 0.3);
+
+}
+#educat{
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-right:30px;
+    position: relative;
+
+}
+#educat h2{
+color: azure;
+    margin-bottom: 10px;
+}
+.e2{
+    margin-bottom: 15px;
+    position: relative;
+}
+.year{
+    color: rgba(126, 125, 125, 0.612);
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.he{
+    color: azure;
+    margin-bottom: 9px;
+}
+.coll{
+    color: rgba(103, 103, 103, 0.854);
+    font-size: 13px;
+}
+.e1{
+    margin-bottom: 25px;
+    position: relative;
+}
+.line4{
+    position: absolute;
+    width: 2px;
+    top: 0px;
+   bottom: 0px;
+   left: -10px;
+   border: 2px solid #3a3a3a;
+}
+.cir{
+    width: 9px;
+    height: 9px;
+    background-color: rgb(8, 8, 8);
+    border: 3px solid rgba(251, 201, 3, 0.537) ;;
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
+    left: -12px;
+    z-index: 1;
+} 
+@media (max-width: 992px) {
+  .main {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .box1 {
+    position: relative;
+    top: 0;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .box2 {
+    padding-bottom: 30px;
+  }
+
+  .top {
+    justify-content: center;
+    padding-right: 0;
+    gap: 15px;
+  }
+
+  .line2 {
+    width: 100%;
+    margin: 20px auto;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  .main {
+    margin: 10px;
+    gap: 15px;
+  }
+
+  .img .g img {
+    width: 70px;
+  }
+
+  .line, .line2 {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  #about, #skill, #educat {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  .b {
+    height: 90px;
+  }
+
+  .b img {
+    width: 40px;
+  }
+}
+  
+    </style>
+
+</head>
+
+<body> 
+    <div class="main">
+        <div class="box1">
+            <div class="img">
+                <div class="g"><img src="http://127.0.0.1:5500/vivek.jpg" alt=""></div>
+                <div class="na">Vivek Chauhan</div>
+                <div class="stu">Student</div>
+            </div>
+            <div class="line"></div>
+            <div class="contact">
+                <div class="email">Email</div>
+                <div class="abc">vivekchauhanrajput417@gmail.com</div>
+                <div class="email">Phone</div>
+                <div class="abc">7249667229</div>
+                <div class="email">Location</div>
+                <div class="abc">Purna,Bhiwandi,Thane</div>
+            </div>
+            <div class="line"></div>
+            <div class="web">
+                <div class="icon1">
+                    <a href="https://www.instagram.com/vivekchauhan6032/"><img src="https://simpleicons.org/icons/instagram.svg" alt=""></a>
+                </div>
+                <div class="icon2"><a href="https://x.com/Vivekchauh34664"><img src="https://simpleicons.org/icons/x.svg" alt=""></a></div>
+                <div class="icon3"><a href="https://www.linkedin.com/in/vivek-chauhan-192834343/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt=""></a></div>
+                
+              
+            </div>
+        </div>
+        <div class="box2">
+            <div class="top">
+                <div class="ab"><a href="#about">About</a></div>
+                <div class="sk"><a href="#skill">Skill</a></div>
+                <div class="e"><a href="#educat">Education</a></div>
+            </div>
+             <div class="line2"></div>
+            <div id="about">
+                <h2>About Me</h2>
+                <div class="line3"></div>
+                <p>I am an enthusiastic learner with a keen interest in exploring new skills and knowledge.
+My focus is on continuous improvement and building a strong foundation in my chosen field.
+I enjoy working on projects that challenge my creativity and problem-solving abilities.
+Teamwork and adaptability are my strengths, along with dedication to achieving goals.
+I believe in learning by doing and applying concepts practically and I also like learn About Machine Learning</p>
+            </div>
+            <div id="skill">
+                <h2>My Skills</h2>
+                <div class="line3"></div>
+                <div class="grid">
+                 <div class="b">
+                    <img src="https://simpleicons.org/icons/html5.svg" alt="">
+                    <h3>HTML</h3>
+
+                 </div>
+                 <div class="b"> <img src="https://simpleicons.org/icons/css.svg" alt="">
+                    <h3>CSS</h3></div>
+                 <div class="b"> <img src="https://simpleicons.org/icons/javascript.svg" alt="">
+                    <h3>Java Script </h3></div>
+                </div>
+            </div>
+            <div id="educat">
+                <h2>Education</h2>
+                <div class="line3"></div>
+                <div class="e2">
+                    <div class="year"> 2025-2029</div>
+                    <div class="he">Bacheolor of Technology in CSE</div>
+                    <div class="coll">SVKM Dwaarkdas .J Sanghvi College of engineering</div>
+                    <div class="cir"></div>
+                </div>
+                <div class="e1">
+                    <div class="year">2023-2025</div>
+                    <div class="he">Higher Secondary College</div>
+                    <div class="coll">NKTT Jr College of science</div>
+                    <div class="cir"></div>
+                </div>
+                <div class="line4"></div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
